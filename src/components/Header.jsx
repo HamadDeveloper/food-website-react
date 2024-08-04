@@ -1,10 +1,11 @@
 import React from "react";
+import './styles.css';
 
 
 function Header(){
     return (
         <header className="header" >
-            <div className="logo">WowFood</div>
+            <div className="logo">wowFood</div>
             <nav>
                 <ul>
                     <li><a href="#">Home</a>  </li>
