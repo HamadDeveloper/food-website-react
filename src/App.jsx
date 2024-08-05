@@ -4,14 +4,20 @@ import SearchBar from './components/SearchBar';
 import FoodCategory from './components/FoodCategory';
 import FoodMenu from './components/FoodMenu';
 import Footer from './components/Footer';
-import './styles.css';
+// import './styles.css';
+import HeroComponent from './components/HeroComponent';
+import ExploreFood from './components/ExploreFood';
+import ExploreFoodList from './components/ExploreFoodList';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <HeroComponent />
+      <ExploreFood />
+      <ExploreFoodList />
       <SearchBar />
-      <FoodCategory />
+      {/* <FoodCategory /> */}
       <FoodMenu />
       <Footer />
     </div>
