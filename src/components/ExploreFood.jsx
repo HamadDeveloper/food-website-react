@@ -1,5 +1,4 @@
 import React from "react";
-// import './styles.css';
 import pizza from '../assets/pizza.jpg'
 import burger from '../assets/burger.jpg'
 import momo from '../assets/momo.jpg'

@@ -1,5 +1,5 @@
 import React from "react";
-// import './styles.css';
+
 import bbq from '../assets/bbq.jpg'
 import biryani from '../assets/biryani.jpg'
 import chanaChart from '../assets/chanaChart.jpg'
