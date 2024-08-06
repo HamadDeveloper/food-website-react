@@ -8,7 +8,7 @@
   
   .hero-container {
     background-image: url("src/assets/burger.jpg");
-    height: 70vh;
+    height: 35vh;
     background-size: cover;
     background-position: center;
     display: flex;

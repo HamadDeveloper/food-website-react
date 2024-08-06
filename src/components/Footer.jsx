@@ -8,7 +8,7 @@ import "./Footer.css"
 function Footer() {
   return (
     <footer className="footer-container">
-      <p>&copy; All rights reserved. Designed by Vyjay Thapa</p>
+      <p>&copy; All rights reserved. Designed by Hamad Ur Rehman</p>
       <div className="footer-image">
         <a href="www.facebook.com" > <img src={facebook} alt={facebook} style={{width:"40px"}}/></a>
         <a href="www.twitter.com" > <img src={twitter} alt={twitter} style={{width:"40px"}}/></a>
