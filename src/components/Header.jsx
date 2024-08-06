@@ -8,7 +8,7 @@ function Header() {
            
         <nav className="nav" >
             <div className="logo">
-                <img src={logo} style={"50px"} alt="wowFood Logo" />
+                <img src={logo} alt="wowFood Logo" style={{height:"50px"}}  />
             </div>
                 <ul className="nav-links">
                     <li><a href="">Home</a></li>
@@ -21,4 +21,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Header

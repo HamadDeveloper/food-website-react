@@ -1,11 +1,4 @@
 import React from "react";
-
-import bbq from '../assets/bbq.jpg'
-import biryani from '../assets/biryani.jpg'
-import chanaChart from '../assets/chanaChart.jpg'
-import fruitChart from '../assets/fruitChart.jpg'
-import kabab from '../assets/kabab.jpg'
-import muttonkarahi from '../assets/muttonkarahi.jpg'
 import FoodCard from "./FoodCard";
 import "./FoodCard.css"
 

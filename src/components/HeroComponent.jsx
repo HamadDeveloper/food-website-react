@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './HeroComponent.css';
 
 function HeroComponent() {
   return (
@@ -8,7 +9,7 @@ function HeroComponent() {
         <button>Search</button>
       </div>
     </div>
-  )
+  );
 }
 
-export default HeroComponent
+export default HeroComponent;

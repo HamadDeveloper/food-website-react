@@ -11,8 +11,7 @@ function App() {
   return (
    <>
       <Header />
-      <HeroComponent />
-      <ExploreFood />
+      <HeroComponent /> 
       <ExploreFoodList />
       <FoodMenuList />
       <Footer />

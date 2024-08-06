@@ -1,7 +1,4 @@
 import React from "react";
-import pizza from '../assets/pizza.jpg'
-import burger from '../assets/burger.jpg'
-import momo from '../assets/momo.jpg'
 import "./ExploreFood.css"
 
 function ExploreFood({foods}){
@@ -16,11 +13,9 @@ function ExploreFood({foods}){
                 </div>
                ))}
            </div>
-               
-     
     </div>
    
-    );
+    )
 }
 
-export default ExploreFood;
+export default ExploreFood
