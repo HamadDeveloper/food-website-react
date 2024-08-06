@@ -8,19 +8,20 @@ import Footer from './components/Footer';
 import HeroComponent from './components/HeroComponent';
 import ExploreFood from './components/ExploreFood';
 import ExploreFoodList from './components/ExploreFoodList';
+import FoodMenuList from './components/FoodMenuList';
 
 function App() {
   return (
-    <div className="App">
+   <>
       <Header />
       <HeroComponent />
       <ExploreFood />
       <ExploreFoodList />
       <SearchBar />
       {/* <FoodCategory /> */}
-      <FoodMenu />
+      <FoodMenuList />
       <Footer />
-    </div>
+    </>
   );
 }
 

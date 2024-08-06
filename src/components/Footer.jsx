@@ -1,14 +1,19 @@
 import React from 'react';
+import facebook from "../assets/facebook.png"
+import twitter from "../assets/twitter.png"
+import instagram from "../assets/instagram.jpeg"
+import "./Footer.css"
 
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer-container">
       <p>&copy; All rights reserved. Designed by Vyjay Thapa</p>
-      <div className="social-links">
-        <a href="#"><i className="fab fa-facebook-f"></i></a>
-        <a href="#"><i className="fab fa-twitter"></i></a>
-        <a href="#"><i className="fab fa-instagram"></i></a>
+      <div className="footer-image">
+        <a href="www.facebook.com" > <img src={facebook} alt={facebook} style={{width:"40px"}}/></a>
+        <a href="www.twitter.com" > <img src={twitter} alt={twitter} style={{width:"40px"}}/></a>
+        <a href="www.instagram.com" > <img src={instagram} alt={instagram} style={{width:"40px"}}/></a>
+        
       </div>
     </footer>
   );
